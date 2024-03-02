@@ -1,0 +1,42 @@
+@import "../../Utilities/StyleUtils.css";
+
+.input_container>input {
+    border: none;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 50px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 5px 30px;
+    background: none;
+    color: var(--White);
+    width: 45vh;
+}
+
+input:focus:required {
+    border: none;
+    outline: none;
+}
+
+.focused_label {
+    color: var(--Aqua_Breeze);
+    position: absolute;
+    top: -10px;
+    margin-left: 30px;
+    padding: 0 5px;
+    font-size: 14px;
+    background-color: #230747;
+}
+
+.blur_label {
+    color: var(--Aqua_Breeze);
+    position: absolute;
+    top: 15px;
+    padding-left: 30px;
+}
+
+.input_container {
+    position: relative;
+    margin: 10px 10px 35px 10px;
+    width: 95%;
+}
