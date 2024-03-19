@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Splash from "../Components/Splash/Splash";
 import SignUp from "../Components/LoginAndSignup/SignUp";
+import Dashboard from "../Components/Dashboard/Dashboard";
 
 const CoreAppRouter = () => {
 
@@ -15,7 +16,8 @@ const CoreAppRouter = () => {
         <div className="Router-Wrapper">
             <Routes>
                 <Route path="/" element={<Splash />} />
-                <Route path="/signup" element={<SignUp />} />
+                <Route path="/login-signup" element={<SignUp />} />
+                <Route path="/dashboard" element={<Dashboard />} />
                 {/* <Route path="user-list" element={<Suspense fallback={<LazyLoader />}><UserListLazy /></Suspense>} />
                 <Route path="add-user" element={<AddUser />} />
                 <Route path="/edit-user/:id" element={<AddUser />} /> */}

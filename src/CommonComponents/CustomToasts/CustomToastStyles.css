@@ -1,0 +1,6 @@
+@import "../../Utilities/StyleUtils.css";
+
+.toastMessage {
+    color: aqua;
+    font-size: large;
+}

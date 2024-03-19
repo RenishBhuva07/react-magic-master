@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import CustomButton from "../../CommonComponents/CustomButton/CustomButton"
 import TextInput from "../../CommonComponents/TextInput/TextInput"
 
@@ -29,6 +30,11 @@ const SignUpUI = ({
     LoginSignUpToggleChange,
 }: ISignUpUIProps) => {
 
+    const fName = useRef(),
+        lName = useRef(),
+        uName = useRef(),
+        paswrd = useRef();
+
     return (
         <div className="login-container d-flex align-center justify-center">
             <div className="form_wrapper">
@@ -37,6 +43,7 @@ const SignUpUI = ({
                 </div>
                 <div className="form_content_wrapper">
                     <TextInput
+                        reference={fName}
                         value={firstName}
                         type="text"
                         name="FirstName"
@@ -45,6 +52,7 @@ const SignUpUI = ({
                         onChange={(value) => handleFirstName(value)}
                     />
                     <TextInput
+                        reference={lName}
                         value={lastName}
                         type="text"
                         name="LastName"
@@ -53,6 +61,7 @@ const SignUpUI = ({
                         onChange={(value) => handleLastName(value)}
                     />
                     <TextInput
+                        reference={uName}
                         value={userName}
                         type="text"
                         name="UserName"
@@ -61,6 +70,7 @@ const SignUpUI = ({
                         onChange={(value) => handleUserName(value)}
                     />
                     <TextInput
+                        reference={paswrd}
                         value={password}
                         type="password"
                         name="Password"
@@ -74,14 +84,14 @@ const SignUpUI = ({
                         onClick={handleSignUp}
                         styleName={"custom_button"}
                     />
-                    <div className="d-flex align-center">
+                    {!isLogin && <div className="d-flex align-center">
                         <p style={{ color: 'red', marginRight: 10 }}>{isLogin ? "Create a New Account ?" : "Already Registered ?"}</p>
                         <CustomButton
                             buttonText={isLogin ? "Sign Up" : "Login"}
                             onClick={LoginSignUpToggleChange}
                             styleName="loginToggleBtn"
                         />
-                    </div>
+                    </div>}
                 </div>
             </div>
         </div>

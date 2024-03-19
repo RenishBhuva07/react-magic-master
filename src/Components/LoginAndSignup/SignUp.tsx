@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import SignUpUI from "./SignUpUI"
 import { USER_DETAILS } from "../../Utilities/Data/PrefKeys";
+import { useNavigate } from "react-router-dom";
+import { setUserDetails } from "../../Redux/actions/UserActions";
 
 const SignUp = () => {
 
@@ -10,35 +12,37 @@ const SignUp = () => {
         [lastName, setLastName] = useState(''),
         [userName, setUserName] = useState(''),
         [password, setPassword] = useState(''),
-        [userDetails, setUserDetails] = useState([]);
+        [usrDetails, setUsrDetails] = useState([]),
+        navigate = useNavigate();
 
     useEffect(() => { //Did Mount
-        if (isLogin) {
-            initialization();
-        }
+        initialization();
     }, [])
 
     const initialization = () => {
         let userDetailsFromStorage: any = localStorage.getItem(USER_DETAILS);
         console.log("initialization_______----=======>>>", userDetailsFromStorage);
-        if (userDetails !== null) {
-            setUserDetails(JSON.parse(userDetailsFromStorage));
+
+        if (usrDetails !== null) {
+            const userDetailsFromLocalStorage = JSON.parse(userDetailsFromStorage);
+            setUserDetails(userDetailsFromLocalStorage[0]); //redux
+            setUsrDetails(userDetailsFromLocalStorage);
+            setIsLogin(true);
         } else {
-            setUserDetails([]);
+            setUsrDetails([]);
+            setIsLogin(false);
         }
     };
 
     const handleSignUp = () => {
-        if (firstName && lastName && userName && password) {
+        if (firstName && lastName && userName && password && !isLogin) {
             let userData = {
                 first_name: firstName,
                 last_name: lastName,
                 user_name: userName,
                 password: password
             };
-            console.log("handleSignUp_______----=======>>>", userData);
-            let newUserDetails = JSON.stringify([...userDetails, userData]);
-            // console.log("newUserDetails_______----=======>>>", newUserDetails);
+            let newUserDetails = usrDetails ? JSON.stringify([...usrDetails, userData]) : JSON.stringify([userData]);
             localStorage.setItem(USER_DETAILS, newUserDetails);
 
             setFirstName('');
@@ -46,13 +50,31 @@ const SignUp = () => {
             setUserName('');
             setPassword('');
 
+        } else if (firstName && lastName && userName && password && isLogin) {
+            let user_name: string = usrDetails[0]?.user_name,
+                pass_word: string = usrDetails[0]?.password;
+            if (userName !== user_name) {
+                alert("You've enter Invalid User Name")
+            } else if (password !== pass_word) {
+                alert("You've enter Invalid Password")
+            } else if (userName === user_name && password === pass_word) {
+                navigate('/dashboard')
+            }
+
         } else {
-            console.error("Please Enter Valid Details")
+            alert("Please Enter Valid Details")
         }
     };
 
     const LoginSignUpToggleChange = () => {
-        setIsLogin(!isLogin)
+        if (isLogin) {
+            setIsLogin(!isLogin);
+        } else if (!isLogin && usrDetails !== null) {
+            setIsLogin(!isLogin);
+            // console.log("Please_Enter________________", usrDetails);
+        } else {
+            alert("Please Sign Up First!")
+        }
     };
 
     const handleFirstName = (value: any) => {

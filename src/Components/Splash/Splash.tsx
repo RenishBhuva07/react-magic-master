@@ -13,7 +13,7 @@ const Splash = () => {
     }, [])
 
     const navigateToSignUp = () => {
-        navigate('/signup')
+        navigate('/login-signup')
     }
 
 

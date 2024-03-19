@@ -5,15 +5,22 @@ import { BrowserRouter } from 'react-router-dom'
 
 // Loaded CSS styles Start ----------------------------------------------------------------
 import './Utilities/StyleUtils.css'
+import './Components/Dashboard/DashboardStyles.css'
+import './CommonComponents/CustomToasts/CustomToastStyles.css'
 import './CommonComponents/TextInput/TextInputStyles.css'
 import './Components/LoginAndSignup/LoginAndSignupStyles.css'
 import './Components/Splash/SplashStyles.css'
+import { Provider } from 'react-redux'
+import ConfigureStore from './Redux/ConfigureStore'
+export const store = ConfigureStore();
 // Loaded CSS styles End ----------------------------------------------------------------
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <CoreAppRouter />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <CoreAppRouter />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
 )

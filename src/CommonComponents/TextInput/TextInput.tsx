@@ -7,9 +7,10 @@ interface ITextInputProps {
     labelText: string;
     labelFor: string;
     onChange: (value: any) => void;
+    reference: any;
 }
 
-const TextInput = ({ value, type, name, labelText, labelFor, onChange }: ITextInputProps) => {
+const TextInput = ({ value, type, name, labelText, labelFor, onChange, reference }: ITextInputProps) => {
 
     const [isFocus, setIsFocus] = useState(false);
 
@@ -23,9 +24,10 @@ const TextInput = ({ value, type, name, labelText, labelFor, onChange }: ITextIn
     };
 
     return (
-        <div className="input_container">
+        <div className="input_container" onClick={() => handleLabelOnBlur(true)}>
             <label onClick={() => handleLabelOnFocus(true)} htmlFor={labelFor} className={isFocus ? 'focused_label' : 'blur_label'}>{labelText}</label>
             <input
+                ref={reference}
                 value={value}
                 type={type} // text button checkbox date email file month number password radio search submit tel url
                 name={name}
