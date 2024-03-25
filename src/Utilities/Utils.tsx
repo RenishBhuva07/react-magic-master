@@ -27,3 +27,6 @@
 //     const navigate = useNavigate();
 //     navigate(`/${key}`);
 // }
+export const GetStepsFromUserTechs = (techKey: string) => {
+    return techKey.length
+}

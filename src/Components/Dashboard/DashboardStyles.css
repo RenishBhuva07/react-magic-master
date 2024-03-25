@@ -1,16 +1,14 @@
 @import "../../Utilities/StyleUtils.css";
 
-.MainContainer {
-    background-color: black;
-    padding: 5px;
-    /* background-image: url(../../assets/BgPaper.jpg);
-    background-position: center;
-    background-size: cover; */
-}
-
-.boxView-outer {
-    height: 90vh;
-}
+/* .MainContainer {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+} */
 
 .glass {
     background: rgba(255, 255, 255, .1);
@@ -24,15 +22,113 @@
 
 .grid_container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
 }
 
 .grid_item {
     padding: 20px;
     margin: 10px;
     border-radius: 20px;
+    color: var(--Neon);
+    border: 1px solid red;
 }
 
-.Heading {
-    color: aqua;
+.dashboard_wrapper {
+    background-color: var(--Black);
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.head_wrapper {
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 100%;
+}
+
+.title_wrapper {
+    width: 100%;
+}
+
+.author_name {
+    color: var(--Neon);
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.author_intro {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: var(--White);
+    text-align: justify
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.wrapper {
+    padding: 0 0 20px 0;
+}
+
+.wrapper .static-txt {
+    color: var(--White);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.wrapper .dynamic-txts {
+    /* border: 1px solid #FC6D6D; */
+    /* margin-left: 0px; */
+    /* margin-bottom: 100px; */
+    height: 52px;
+    line-height: 52px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: var(--Neon);
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    /* top: 0; */
+    animation: slide 6s steps(2) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -52px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    margin: 5px 0px;
+    /* line-height: 90px; */
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--Black);
+    border-left: 2px solid var(--Neon);
+    /* #FC6D6D; */
+    animation: typing 3s steps(12) infinite;
+}
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 5px);
+    }
+
+    100% {
+        left: 0;
+    }
 }

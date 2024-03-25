@@ -29,7 +29,7 @@ const SignUp = () => {
             setUsrDetails(userDetailsFromLocalStorage);
             setIsLogin(true);
         } else {
-            setUsrDetails([]);
+            setUsrDetails([]); //redux
             setIsLogin(false);
         }
     };
@@ -54,11 +54,11 @@ const SignUp = () => {
             let user_name: string = usrDetails[0]?.user_name,
                 pass_word: string = usrDetails[0]?.password;
             if (userName !== user_name) {
-                alert("You've enter Invalid User Name")
+                alert("You've enter Invalid User Name");
             } else if (password !== pass_word) {
-                alert("You've enter Invalid Password")
+                alert("You've enter Invalid Password");
             } else if (userName === user_name && password === pass_word) {
-                navigate('/dashboard')
+                navigate('/dashboard');
             }
 
         } else {

@@ -1,23 +1,17 @@
 :root {
     --White: #ffffff;
-    --Black: #00092C;
+    --Black: #000000;
     --Midnight_Sapphire: #030637;
     --Deep_Purple: #3C0753;
     --Mystic_Azure: #646cffaa;
+    --Neon: #DBFF53;
     --red: red;
     --Aqua_Breeze: #00D8FF;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    /* color: var(--White); */
-    /* line-height: 1.5; */
-    /* font-weight: 400; */
-    /* color-scheme: light dark; */
-    /* font-synthesis: none; */
-    /* text-rendering: optimizeLegibility; */
-    /* -webkit-font-smoothing: antialiased; */
-    /* -moz-osx-font-smoothing: grayscale; */
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 h1,
@@ -31,7 +25,7 @@ h6 {
 }
 
 .h2_title_aqua {
-    color: var(--Aqua_Breeze);
+    color: var(--Neon);
     text-align: center;
 }
 
@@ -44,46 +38,8 @@ body {
     /* font-size: 20px; */
 }
 
-.logo:hover {
-    filter: drop-shadow(0 0 2em var(--Mystic_Azure));
-}
-
-.logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-.splash-container {
-    height: 100%;
-    width: 100%;
-    background-color: var(--black);
-}
-
-.d-flex {
-    display: flex;
-}
-
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.align-center {
-    align-items: center;
-}
-
 .position-absolute {
-    position: absolute;
+    position: absolute !important;
 }
 
 a {
@@ -96,33 +52,321 @@ a:hover {
     color: #535bf2;
 }
 
-.logo {
-    height: 4em;
-    padding: 1.5em;
-    animation: logo-spin 2s infinite;
+/* ------------------------------GLOBLE START------------------------------ */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
+a {
+    text-decoration: none;
+}
 
-    to {
-        transform: rotate(360deg);
+li {
+    list-style: none;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.375rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.height_vh {
+    height: 100vh;
+}
+
+
+/* ------------------------------GLOBLE END------------------------------ */
+
+/* ------------------------------CONTAINERs START------------------------------ */
+.MainContainer {
+    --bs-gutter-x: 4rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+    .MainContainer {
+        max-width: 540px;
     }
 }
 
-/* @media (prefers-color-scheme: light) {
-    :root {
-        color: #213547;
-        background-color: #ffffff;
+@media (min-width: 768px) {
+
+    .MainContainer {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .MainContainer {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .MainContainer {
+        max-width: 100%;
+    }
+}
+
+/* ------------------------------CONTAINERs END------------------------------ */
+
+/* ------------------------------ROWs START------------------------------ */
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse !important;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.flex-row {
+    flex-direction: row !important;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+/* ------------------------------ROWs END------------------------------ */
+
+/* ------------------------------COL-s START------------------------------ */
+@media (min-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
     }
 
-    a:hover {
-        color: #747bff;
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25%;
     }
 
-    button {
-        background-color: #f9f9f9;
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
     }
-} */
+
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+    .col-lg-8 {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+/* ------------------------------COL-s END------------------------------ */
+
+/* ------------------------------MARGINS & PADDINGS START------------------------------ */
+.mx-1 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+}
+
+.my-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.my-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+}
+
+.me-3 {
+    margin-right: 1rem !important;
+}
+
+@media (min-width:576px) {
+    .me-sm-5 {
+        margin-right: 3rem !important;
+    }
+
+    .ms-sm-5 {
+        margin-left: 3rem !important;
+    }
+
+    .mb-4 {
+        margin: 0 !important;
+    }
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+@media (min-width:992px) {
+    .p-lg-5 {
+        padding: 3rem !important;
+    }
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* ------------------------------MARGINS & PADDINGS END------------------------------ */
+
+/* ------------------------------TEXT-ALIGNMENTS START------------------------------ */
+@media (min-width:992px) {
+    .text-end {
+        text-align: right !important;
+    }
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/* ------------------------------TEXT-ALIGNMENTS END------------------------------ */
+
+/* ------------------------------FLEX-ALIGNMENTS START------------------------------ */
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.justify-content-start {
+    justify-content: flex-start !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+/* ------------------------------FLEX-ALIGNMENTS END------------------------------ */

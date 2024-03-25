@@ -27,9 +27,7 @@ const Dashboard = ({ userDetails }: IDashboardProps) => {
 
 
     return (
-        <DashboardUI
-            fullName={state.fullName}
-        />
+        <DashboardUI />
     )
 }
 

@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 // Loaded CSS styles Start ----------------------------------------------------------------
 import './Utilities/StyleUtils.css'
+import './Components/Header/HeaderStyles.css'
 import './Components/Dashboard/DashboardStyles.css'
 import './CommonComponents/CustomToasts/CustomToastStyles.css'
 import './CommonComponents/TextInput/TextInputStyles.css'

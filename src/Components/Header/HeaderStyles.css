@@ -1,0 +1,57 @@
+@import "../../Utilities/StyleUtils.css";
+
+.header_wrapper {
+    background-color: var(--Black);
+}
+
+.ani_wrapper {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    /* padding-top: 100.0000%; */
+    /* padding-bottom: 0; */
+    box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+    /* margin-top: 1.6em; */
+    /* margin-bottom: 0.9em; */
+    /* overflow: hidden; */
+    border-radius: 8px;
+    will-change: transform;
+}
+
+.animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_wrapper ul li {
+    /* border: 1px solid white; */
+    color: var(--Neon);
+    padding: 3px 55px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header_wrapper ul li:hover {
+    border-bottom: 1px solid var(--Neon);
+    /* background-color: var(--Neon); */
+    color: var(--White);
+}
+
+.menu_bar {
+    padding: 0px 50px;
+}
+
+.menus {
+    padding: 30px 0px;
+}
+
+.react_home {
+    width: 7%;
+    height: 7%;
+}

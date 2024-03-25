@@ -2,6 +2,9 @@ import { Route, Routes } from "react-router-dom"
 import Splash from "../Components/Splash/Splash";
 import SignUp from "../Components/LoginAndSignup/SignUp";
 import Dashboard from "../Components/Dashboard/Dashboard";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const CoreAppRouter = () => {
 
@@ -11,6 +14,11 @@ const CoreAppRouter = () => {
     //         resolve({ default: () => <UserList /> });
     //     }, 2000);
     // }));
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
 
     return (
         <div className="Router-Wrapper">

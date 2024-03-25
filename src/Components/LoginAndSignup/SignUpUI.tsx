@@ -36,7 +36,7 @@ const SignUpUI = ({
         paswrd = useRef();
 
     return (
-        <div className="login-container d-flex align-center justify-center">
+        <div className="login-container d-flex align-items-center justify-content-center">
             <div className="form_wrapper">
                 <div className="form_title_wrapper">
                     <h2 className="h2_title_aqua">{isLogin ? "Login" : "SignUp"}</h2>
@@ -84,7 +84,7 @@ const SignUpUI = ({
                         onClick={handleSignUp}
                         styleName={"custom_button"}
                     />
-                    {!isLogin && <div className="d-flex align-center">
+                    {!isLogin && <div className="d-flex align-items-center">
                         <p style={{ color: 'red', marginRight: 10 }}>{isLogin ? "Create a New Account ?" : "Already Registered ?"}</p>
                         <CustomButton
                             buttonText={isLogin ? "Sign Up" : "Login"}

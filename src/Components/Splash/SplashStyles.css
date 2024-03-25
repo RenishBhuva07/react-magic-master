@@ -3,9 +3,40 @@
 .splash-container {
     height: 100vh;
     width: 100%;
-    background-color: var(--Midnight_Sapphire);
+    background-color: var(--Black);
 }
 
 /* .splash-title {
     color: var(--Aqua_Breeze);
 } */
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em var(--Mystic_Azure));
+}
+
+.react:hover {
+    filter: drop-shadow(0 0 2em var(--Neon));
+}
+
+.splash-container {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--Black);
+}
+
+.logo {
+    height: 10rem;
+    padding: 1.5rem;
+    animation: logo-spin 2s infinite;
+    color: var(--Neon);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
