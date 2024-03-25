@@ -19,7 +19,7 @@ export const store = ConfigureStore();
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/react-magic-master'>
         <CoreAppRouter />
       </BrowserRouter>
     </Provider>

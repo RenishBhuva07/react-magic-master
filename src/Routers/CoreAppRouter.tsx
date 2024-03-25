@@ -22,7 +22,7 @@ const CoreAppRouter = () => {
     return (
         <div className="Router-Wrapper">
             <Routes>
-                <Route path="/" element={<Splash />} />
+                <Route path="/react-magic-master" element={<Splash />} />
                 {/* <Route path="/login-signup" element={<SignUp />} /> */}
                 <Route path="/dashboard" element={<Dashboard />} />
                 {/* <Route path="user-list" element={<Suspense fallback={<LazyLoader />}><UserListLazy /></Suspense>} />
