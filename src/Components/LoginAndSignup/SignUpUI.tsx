@@ -12,7 +12,7 @@ interface ISignUpUIProps {
     handleLastName: (value: any) => void;
     handleUserName: (value: any) => void;
     handlePassword: (value: any) => void;
-    handleSignUp: () => void;
+    // handleSignUp: () => void;
     LoginSignUpToggleChange: () => void;
 }
 
@@ -26,7 +26,7 @@ const SignUpUI = ({
     handleLastName,
     handleUserName,
     handlePassword,
-    handleSignUp,
+    // handleSignUp,
     LoginSignUpToggleChange,
 }: ISignUpUIProps) => {
 
@@ -79,11 +79,11 @@ const SignUpUI = ({
                         onChange={(value) => handlePassword(value)}
                     />
                     {/* <input className="custom_button" type="submit" value={'Submit'} /> */}
-                    <CustomButton
+                    {/* <CustomButton
                         buttonText={isLogin ? "Login" : "SignUp"}
                         onClick={handleSignUp}
                         styleName={"custom_button"}
-                    />
+                    /> */}
                     {!isLogin && <div className="d-flex align-items-center">
                         <p style={{ color: 'red', marginRight: 10 }}>{isLogin ? "Create a New Account ?" : "Already Registered ?"}</p>
                         <CustomButton

@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import SignUpUI from "./SignUpUI"
 import { USER_DETAILS } from "../../Utilities/Data/PrefKeys";
-import { useNavigate } from "react-router-dom";
 import { setUserDetails } from "../../Redux/actions/UserActions";
 
 const SignUp = () => {
@@ -12,8 +11,8 @@ const SignUp = () => {
         [lastName, setLastName] = useState(''),
         [userName, setUserName] = useState(''),
         [password, setPassword] = useState(''),
-        [usrDetails, setUsrDetails] = useState([]),
-        navigate = useNavigate();
+        [usrDetails, setUsrDetails] = useState([]);
+    // navigate = useNavigate()
 
     useEffect(() => { //Did Mount
         initialization();
@@ -34,37 +33,37 @@ const SignUp = () => {
         }
     };
 
-    const handleSignUp = () => {
-        if (firstName && lastName && userName && password && !isLogin) {
-            let userData = {
-                first_name: firstName,
-                last_name: lastName,
-                user_name: userName,
-                password: password
-            };
-            let newUserDetails = usrDetails ? JSON.stringify([...usrDetails, userData]) : JSON.stringify([userData]);
-            localStorage.setItem(USER_DETAILS, newUserDetails);
+    // const handleSignUp = () => {
+    //     if (firstName && lastName && userName && password && !isLogin) {
+    //         let userData = {
+    //             first_name: firstName,
+    //             last_name: lastName,
+    //             user_name: userName,
+    //             password: password
+    //         };
+    //         let newUserDetails = usrDetails ? JSON.stringify([...usrDetails, userData]) : JSON.stringify([userData]);
+    //         localStorage.setItem(USER_DETAILS, newUserDetails);
 
-            setFirstName('');
-            setLastName('');
-            setUserName('');
-            setPassword('');
+    //         setFirstName('');
+    //         setLastName('');
+    //         setUserName('');
+    //         setPassword('');
 
-        } else if (firstName && lastName && userName && password && isLogin) {
-            let user_name: string = usrDetails[0]?.user_name,
-                pass_word: string = usrDetails[0]?.password;
-            if (userName !== user_name) {
-                alert("You've enter Invalid User Name");
-            } else if (password !== pass_word) {
-                alert("You've enter Invalid Password");
-            } else if (userName === user_name && password === pass_word) {
-                navigate('/dashboard');
-            }
+    //     } else if (firstName && lastName && userName && password && isLogin) {
+    //         let user_name = usrDetails[0]?.user_name,
+    //             pass_word = usrDetails[0]?.password;
+    //         if (userName !== user_name) {
+    //             alert("You've enter Invalid User Name");
+    //         } else if (password !== pass_word) {
+    //             alert("You've enter Invalid Password");
+    //         } else if (userName === user_name && password === pass_word) {
+    //             navigate('/dashboard');
+    //         }
 
-        } else {
-            alert("Please Enter Valid Details")
-        }
-    };
+    //     } else {
+    //         alert("Please Enter Valid Details")
+    //     }
+    // };
 
     const LoginSignUpToggleChange = () => {
         if (isLogin) {
@@ -105,7 +104,7 @@ const SignUp = () => {
             handleLastName={(value) => handleLastName(value)}
             handleUserName={(value) => handleUserName(value)}
             handlePassword={(value) => handlePassword(value)}
-            handleSignUp={handleSignUp}
+            // handleSignUp={handleSignUp}
             LoginSignUpToggleChange={LoginSignUpToggleChange}
         />
     )
