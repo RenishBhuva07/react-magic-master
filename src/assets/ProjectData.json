@@ -1,0 +1,364 @@
+{
+    "portfolio": {
+        "portfolioDetails": {
+            "favIcon": "./src/assets/Images/react.svg",
+            "portfolioTitle": "Renish Bhuva"
+        },
+        "personalDetails": {
+            "intro": "I Enjoy Creating Things That Live On The Internet. I am an experienced Software Engineer with expertise in React Native, React JS, TypeScript, and JavaScript. I am dedicated to crafting innovative and high-performing solutions, along with user-friendly Cross-Platform Mobile Applications (Android and iOS) and Web Applications to Enhance the Digital world for Next-Generation.",
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/profile%2Fcoding_ninja.jpg?alt=media&token=5ddfbe36-5e24-4630-acd5-0b900f945fe2",
+            "firstName": "Renish",
+            "lastName": "Bhuva",
+            "address": "Ahmedabad, Gujarat, India",
+            "designation": "Software Engineer",
+            "contactNumber": "+91 9586902765",
+            "contactEmail": "renish.bhuva.07@gmail.com"
+        },
+        "social": [
+            {
+                "title": "Github",
+                "value": "https://github.com/RenishBhuva07",
+                "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/social%2Fgithub.png?alt=media&token=369f7546-3e8d-489a-b240-6e5c5506e1bc"
+            },
+            {
+                "title": "LinkedIn",
+                "value": "https://www.linkedin.com/in/bhavin-khatri-838a3a1a4/",
+                "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/social%2Flinkedin.png?alt=media&token=1d5275ab-be8a-4420-87ee-846e8252760e"
+            },
+            {
+                "title": "Gmail",
+                "value": "https://www.buymeacoffee.com/khatribhavi",
+                "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/social%2Fcoffee_cup.png?alt=media&token=e2fbd435-fc03-4c9e-afe0-59fad1abccdf"
+            }
+        ],
+        "moreAboutMe": {
+            "sectionTitle": "More About Me",
+            "aboutMe": ""
+        },
+        "allSkills": [
+            {
+                "title": "Operating Systems",
+                "data": [
+                    "MacOs",
+                    "Windows"
+                ]
+            },
+            {
+                "title": "Frameworks / Libraries",
+                "data": [
+                    "React Native",
+                    "React Js"
+                ]
+            },
+            {
+                "title": "Database Expertise",
+                "data": [
+                    "MongoDb",
+                    "Firebase"
+                ]
+            },
+            {
+                "title": "Languages",
+                "data": [
+                    "JavaScript",
+                    "TypeScript",
+                    "Html",
+                    "CSS"
+                ]
+            },
+            {
+                "title": "Version Controls",
+                "data": [
+                    "Github",
+                    "Bitbucket"
+                ]
+            },
+            {
+                "title": "App Distribution",
+                "data": [
+                    "Play Store",
+                    "App Store",
+                    "App Center"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "componentName": "About",
+                "title": "About",
+                "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+                "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7"
+            },
+            {
+                "componentName": "Skills",
+                "title": "Skills",
+                "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+                "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7"
+            },
+            {
+                "componentName": "ProjectList",
+                "title": "Projects",
+                "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+                "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7"
+            },
+            {
+                "componentName": "Experience",
+                "title": "Experience",
+                "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+                "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7"
+            }
+        ],
+        "projects": [
+            {
+                "projectName": "Gyan Astra",
+                "projectImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fic_launcher.png?alt=media&token=7bead5e8-70f7-45c7-a281-368833a05b61",
+                "projectRoundImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fgyan_astra_curve.png?alt=media&token=c4a20069-6059-4a40-8259-dfb79028ff9a",
+                "startDate": "",
+                "endData": "",
+                "primaryColor": "#e44c4c",
+                "releaseApkLink": "https://drive.google.com/file/d/11an466_uKP4rx0EHhP1ceGVDgEPKpPuM/view?usp=drive_link",
+                "projectDescription": "As a name suggest Gyan Astra is a mobile application where user can get knowledge (gyan) of Modern Era's Astra (Crypto Currency, NFT , PI Network , Stock Market)",
+                "projectScreenLayouts": [
+                    {
+                        "title": "Splash",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fsplash.png?alt=media&token=94ba94dc-9a6f-4fab-b56a-adcf918d1125"
+                    },
+                    {
+                        "title": "Login",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Flogin.jpeg?alt=media&token=bbb4d9d1-a8a0-4b0f-b273-9016028ec7c6"
+                    },
+                    {
+                        "title": "Sign Up",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fsign%20up.jpeg?alt=media&token=a5c5fdf5-92a3-4859-b3ea-b59e8b0e35c3"
+                    },
+                    {
+                        "title": "Dashboard",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fdashboard.jpeg?alt=media&token=d8a97800-8bf8-4a4a-91a7-8ad144e92802"
+                    },
+                    {
+                        "title": "Crypto Astra",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fcrypto%20info.jpeg?alt=media&token=14eaf306-917f-48cc-b2d6-47c31afdac3c"
+                    },
+                    {
+                        "title": "Stock Astra",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fstock%20info.jpeg?alt=media&token=93311082-6ef2-4368-91a8-fa3a4a41d8ff"
+                    },
+                    {
+                        "title": "Pi Astra",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fpi%20stra.jpg?alt=media&token=94341f34-b601-4acd-acae-02e4d603c369"
+                    },
+                    {
+                        "title": "NFT Astra",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fnft%20astra.jpg?alt=media&token=965c68eb-bc7c-407a-9c2f-7b0a809349a5"
+                    },
+                    {
+                        "title": "Crypto Prices",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fcrypto%20price%20list.jpeg?alt=media&token=80249a33-9507-4af0-b1eb-83a86d0f8c56"
+                    },
+                    {
+                        "title": "News List",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fnews%20list.jpeg?alt=media&token=24f06c21-75c0-48a4-9981-91848017841b"
+                    },
+                    {
+                        "title": "News Details",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fnews%20details.jpeg?alt=media&token=7cb5d709-f1f2-4852-9df8-dbe707a46a3c"
+                    }
+                ],
+                "projectTechStack": [
+                    "React Native",
+                    "TypeScript",
+                    "JavaScript",
+                    "Firebase"
+                ],
+                "projectVersion": "",
+                "projectLink": "https://github.com/bhavin-khatri/gyan-astra-rn",
+                "roleDescription": "As a Developer for Gyan Astra, constructed a cross-platform mobile application using React Native that provides a wide range of information about modern-era topics, including Astra, cryptocurrency, NFTs, PIE, and the stock market."
+            },
+            {
+                "projectName": "Play Me (Design)",
+                "projectImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2Fplaystore-icon.png?alt=media&token=9ac32110-f4eb-459b-b48c-0f4c274d9871",
+                "projectRoundImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2Fplay_me_curve.png?alt=media&token=0c2b0b94-3e22-4870-985d-90e505001698",
+                "startDate": "",
+                "endData": "",
+                "primaryColor": "#000000",
+                "releaseApkLink": "https://drive.google.com/file/d/18y0jrLV14w_cZEK_gdw-HABzFe6hVVHe/view?usp=drive_link",
+                "projectDescription": "Play Me is an innovative UI concept designed to revolutionize the way users interact with music applications. While the current version is not functional in terms of music playback, it serves as a glimpse into the future of music consumption and user experience. The project focuses on presenting a visually appealing and intuitive interface that enhances the user's engagement with their music library.",
+                "projectScreenLayouts": [
+                    {
+                        "title": "Introduction",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FIntro.jpeg?alt=media&token=5fb3dd8e-cb64-4442-b067-b773e21b24ed"
+                    },
+                    {
+                        "title": "Dashboard",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FDashboard.jpeg?alt=media&token=4a5eed5b-c3e9-4f1f-a645-488166d89f9b"
+                    },
+                    {
+                        "title": "Profile",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FProfile.jpeg?alt=media&token=86fd45d0-83f8-4c9e-9089-adaa652cde4f"
+                    },
+                    {
+                        "title": "Music",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FMusic.jpeg?alt=media&token=954ce53b-7051-4e48-a90e-27cc72b7f294"
+                    },
+                    {
+                        "title": "Favourites",
+                        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FFav%20list.jpeg?alt=media&token=ff68fd1b-ac29-49e0-b1ab-5be312832585"
+                    }
+                ],
+                "projectTechStack": [
+                    "React Native",
+                    "TypeScript",
+                    "JavaScript"
+                ],
+                "projectVersion": "",
+                "projectLink": "https://github.com/bhavin-khatri/play-me-rn",
+                "roleDescription": "As a Developer for Play Me, constructed a cross-platform mobile application using React Native that presents a visually appealing and intuitive interface that enhances the user's engagement with their music library."
+            }
+        ],
+        "resumeData": {
+            "resumePdf": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/profile%2FBhavin_Khatri.pdf?alt=media&token=397d89fd-d346-4eec-b3e2-a79c5340d0ae",
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/profile%2Fbk.jpeg?alt=media&token=fecf3d99-21fd-44ad-8dfc-842e8bb307af",
+            "experiences": [
+                {
+                    "companyName": "Pheal",
+                    "designation": "Frontend Developer",
+                    "startDate": "Sept 2023",
+                    "employmentType": "Full Time",
+                    "endDate": "Present",
+                    "skills": [
+                        "React Native",
+                        "React Js",
+                        "React Hooks",
+                        "Redux",
+                        "TypeScript",
+                        "JavaScript",
+                        "HTML",
+                        "CSS",
+                        "AWS",
+                        "Firebase",
+                        "Rest API",
+                        "Product",
+                        "App Distribution",
+                        "Git",
+                        "Payment Integration"
+                    ],
+                    "roleDescription": [
+                        "Collaborated with stakeholders and product owners to gather and comprehend product requirements.",
+                        "Conducted thorough analysis of new feature requests and identified bugs, ensuring clear project objectives.",
+                        "Developed new features for the Pheal App & Pheal Web App, following industry best practices.",
+                        "Ensured a user-friendly and consistent user interface in alignment with the design specifications",
+                        "Worked on code optimization strategies to enhance app performance and reduce load times.",
+                        "Maintained clean and efficient code to facilitate future enhancements."
+                    ],
+                    "achievements": [
+                        " Independently conceptualized, designed, and developed both the Pheal Admin Dashboard and Pheal Appointment Booking Websites from scratch, showcasing comprehensive skills as the sole developer"
+                    ]
+                },
+                {
+                    "companyName": "Digipay.Guru (Peerbits)",
+                    "designation": "Software Engineer",
+                    "employmentType": "Full Time",
+                    "startDate": "June 2022",
+                    "endDate": "August 2023",
+                    "skills": [
+                        "React Native",
+                        "React Js",
+                        "React Hooks",
+                        "Redux",
+                        "TypeScript",
+                        "JavaScript",
+                        "AWS",
+                        "Firebase",
+                        "Notification",
+                        "Rest API",
+                        "Product",
+                        "Fintech",
+                        "App Distribution",
+                        "Datadog",
+                        "Sentry",
+                        "Git",
+                        "Payment Integration",
+                        "Digital Signature"
+                    ],
+                    "roleDescription": [
+                        "Developed cross-platform applications using the React Native framework (TypeScript, JavaScript) for Android and iOS platforms",
+                        "Engineered clean, maintainable, and efficient code to implement user interfaces and application features.",
+                        "Conducted comprehensive testing and debugging of applications to ensure high-quality deliverables.",
+                        "Collaborated closely with the design team to ensure an optimal user experience and interface implementation.",
+                        "Participated in code reviews, offering valuable feedback and contributing to code quality standards.",
+                        "Demonstrated expertise in app distribution processes and requirements for Google Play Store and Apple App Store."
+                    ],
+                    "achievements": [
+                        "Earned appreciation for developing and delivering DGePay, a Fintech app for a Bangladesh client, securing the coveted Bangladesh Bank License for the initiation of payment services in Bangladesh.",
+                        "Orchestrated a comprehensive flavor setup, enhancing the product's market competitiveness and user appeal.",
+                        "Spearheaded digital signature implementation in Digipay, fortifying its security infrastructure and addressing critical security concerns."
+                    ]
+                },
+                {
+                    "companyName": "Lahagora Pvt Ltd",
+                    "designation": "Android Developer Intern",
+                    "employmentType": "Internship",
+                    "startDate": "November 2021",
+                    "endDate": "April 2022",
+                    "skills": [
+                        "Android",
+                        "Java",
+                        "Kotlin",
+                        "Player",
+                        "OTT",
+                        "Google Ads",
+                        "Firebase",
+                        "Notification",
+                        "Rest API"
+                    ],
+                    "roleDescription": [
+                        "Developed user-friendly and responsive mobile applications for the Android platform.",
+                        "Crafted efficient, clean, and maintainable code in Java and Kotlin, adhering to coding best practices and guidelines.",
+                        "Integrated Firebase services, including Firebase Authentication, Firebase Realtime Database, and Firebase Cloud Messaging, into mobile applications.",
+                        "Incorporated the Google Ads SDK and integrated relevant ad formats within the app, ensuring precise ad targeting and effective monetization strategies.",
+                        "Collaborated with media playback libraries like VLC Player to provide seamless audio and video playback functionality."
+                    ],
+                    "achievements": [
+                        "Successfully built and launched Orange IPTV, an Android OTT App, which achieved a live presence on the Play Store, showcasing proficiency in app development and deployment."
+                    ]
+                }
+            ],
+            "skills": [
+                "Fintech",
+                "React Native",
+                "TypeScript",
+                "JavaScript",
+                "React.js",
+                "React Hooks",
+                "Redux",
+                "HTML",
+                "CSS",
+                "Git",
+                "Kotlin",
+                "Android",
+                "Java",
+                "Google Play Store",
+                "App Store",
+                "Firebase",
+                "Microsoft Office tools",
+                "Product Development",
+                "Datadog"
+            ],
+            "education": [
+                {
+                    "university": "Charotar University Of Science And Technology",
+                    "course": "B.Sc",
+                    "cgpa": "8.77",
+                    "startYear": "2017",
+                    "endYear": "2020"
+                }
+            ],
+            "languages": [
+                "Gujarati",
+                "English",
+                "Hindi"
+            ],
+            "declaration": "I hereby confirm that the information provided by me is accurate to the best of my knowledge and belief."
+        }
+    }
+}

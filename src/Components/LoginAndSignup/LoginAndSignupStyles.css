@@ -35,7 +35,7 @@
     width: 100%;
 }
 
-.custom_button {
+/* .custom_button {
     width: 30vh;
     padding: 15px 30px;
     border: 1px solid red;
@@ -43,7 +43,7 @@
     color: var(--Aqua_Breeze);
     border-radius: 50px;
     font-size: 20px;
-}
+} */
 
 .loginToggleBtn {
     font-size: 15px;

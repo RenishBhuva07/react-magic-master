@@ -24,10 +24,14 @@ const Dashboard = ({ }: IDashboardProps) => {
         }
     }, [])
 
+    const navigateToContactMe = () => {
+        console.log("navigateToContactMe____called")
+    };
+
 
 
     return (
-        <DashboardUI />
+        <DashboardUI onClickContactMe={navigateToContactMe} />
     )
 }
 

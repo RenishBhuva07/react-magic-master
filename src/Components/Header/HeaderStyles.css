@@ -32,9 +32,13 @@
 .header_wrapper ul li {
     /* border: 1px solid white; */
     color: var(--Neon);
-    padding: 3px 55px;
+    /* padding: 3px 55px; */
+    padding: 3px 0;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
+    width: 9rem;
+    text-align: center;
+    /* background-color: aqua; */
 }
 
 .header_wrapper ul li:hover {

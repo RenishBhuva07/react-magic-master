@@ -5,6 +5,8 @@ import { BrowserRouter } from 'react-router-dom'
 
 // Loaded CSS styles Start ----------------------------------------------------------------
 import './Utilities/StyleUtils.css'
+import './CommonComponents/CustomButton/CustomButtonStyles.css'
+import './Components/AboutMe/AboutMeStyles.css'
 import './Components/Header/HeaderStyles.css'
 import './Components/Dashboard/DashboardStyles.css'
 import './CommonComponents/CustomToasts/CustomToastStyles.css'
@@ -19,7 +21,7 @@ export const store = ConfigureStore();
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename='/react-magic-master'>
+      <BrowserRouter>
         <CoreAppRouter />
       </BrowserRouter>
     </Provider>

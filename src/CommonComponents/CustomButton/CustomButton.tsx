@@ -2,14 +2,14 @@
 interface ICustomButtonProps {
     buttonText: string;
     onClick: () => void;
-    styleName: string;
+    styleName?: string;
 }
 const CustomButton = ({ buttonText, onClick, styleName }: ICustomButtonProps) => {
     return (
         <div>
             <button
-                // className="custom_button"
-                className={styleName}
+                className={`pulseBox btn ${styleName ? styleName : ''}`}
+                // className={styleName}
                 onClick={onClick}>
                 {buttonText}
             </button>

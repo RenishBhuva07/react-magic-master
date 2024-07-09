@@ -14,6 +14,10 @@
     font-size: 20px;
 }
 
+.neon_clr {
+    color: var(--Neon);
+}
+
 h1,
 h2,
 h3,
@@ -283,6 +287,10 @@ svg {
     margin-right: 1rem !important;
 }
 
+.me-8 {
+    margin-right: 5rem !important;
+}
+
 @media (min-width:576px) {
     .me-sm-5 {
         margin-right: 3rem !important;
@@ -324,8 +332,12 @@ svg {
     padding-left: 1.5rem !important;
 }
 
-.py-5 {
+.py-7 {
     padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.pb-7 {
     padding-bottom: 3rem !important;
 }
 
@@ -363,6 +375,10 @@ svg {
 
 .justify-content-evenly {
     justify-content: space-evenly !important;
+}
+
+.justify-content-around {
+    justify-content: space-around !important;
 }
 
 .align-items-center {

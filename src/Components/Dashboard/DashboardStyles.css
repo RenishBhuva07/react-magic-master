@@ -53,7 +53,7 @@
 
 .author_name {
     color: var(--Neon);
-    font-size: 3rem;
+    font-size: 4.25rem;
     line-height: 4rem;
 }
 
@@ -62,6 +62,25 @@
     font-size: 1rem;
     color: var(--White);
     text-align: justify
+}
+
+/* .btn {
+    font-size: 1.2rem;
+    color: var(--Neon);
+    background-color: var(--Black);
+    border: 1px solid var(--Neon);
+    padding: 5px 20px;
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+.btn:hover {
+    color: var(--Black);
+    background-color: var(--Neon);
+} */
+
+.border {
+    border: 1px solid var(--Neon);
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
