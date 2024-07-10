@@ -4,6 +4,7 @@ import { CustomAnimation } from "../../CommonComponents/CustomAnimation/CustomAn
 import { USER_TECHS } from "../../Utilities/Data/PrefKeys"
 import CustomButton from "../../CommonComponents/CustomButton/CustomButton"
 import AboutMe from "../AboutMe/AboutMe"
+import MySkills from "../Skills/MySkills"
 
 interface IDashboardUIProps {
     onClickContactMe: () => void;
@@ -82,6 +83,7 @@ const DashboardUI = ({ onClickContactMe }: IDashboardUIProps) => {
             </div>
             {/* DashBoard Main Conten End */}
             <AboutMe />
+            <MySkills />
         </>
     )
 }

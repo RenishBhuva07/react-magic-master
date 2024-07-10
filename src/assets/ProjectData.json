@@ -22,7 +22,7 @@
             },
             {
                 "title": "LinkedIn",
-                "value": "https://www.linkedin.com/in/bhavin-khatri-838a3a1a4/",
+                "value": "https://www.linkedin.com/in/renish-bhuva-21rb/",
                 "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/social%2Flinkedin.png?alt=media&token=1d5275ab-be8a-4420-87ee-846e8252760e"
             },
             {
@@ -47,7 +47,17 @@
                 "title": "Frameworks / Libraries",
                 "data": [
                     "React Native",
-                    "React Js"
+                    "React Js",
+                    "Bootstrap"
+                ]
+            },
+            {
+                "title": "Languages",
+                "data": [
+                    "TypeScript",
+                    "JavaScript",
+                    "Html",
+                    "CSS"
                 ]
             },
             {
@@ -55,15 +65,6 @@
                 "data": [
                     "MongoDb",
                     "Firebase"
-                ]
-            },
-            {
-                "title": "Languages",
-                "data": [
-                    "JavaScript",
-                    "TypeScript",
-                    "Html",
-                    "CSS"
                 ]
             },
             {
@@ -220,46 +221,11 @@
             "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/profile%2Fbk.jpeg?alt=media&token=fecf3d99-21fd-44ad-8dfc-842e8bb307af",
             "experiences": [
                 {
-                    "companyName": "Pheal",
-                    "designation": "Frontend Developer",
-                    "startDate": "Sept 2023",
-                    "employmentType": "Full Time",
-                    "endDate": "Present",
-                    "skills": [
-                        "React Native",
-                        "React Js",
-                        "React Hooks",
-                        "Redux",
-                        "TypeScript",
-                        "JavaScript",
-                        "HTML",
-                        "CSS",
-                        "AWS",
-                        "Firebase",
-                        "Rest API",
-                        "Product",
-                        "App Distribution",
-                        "Git",
-                        "Payment Integration"
-                    ],
-                    "roleDescription": [
-                        "Collaborated with stakeholders and product owners to gather and comprehend product requirements.",
-                        "Conducted thorough analysis of new feature requests and identified bugs, ensuring clear project objectives.",
-                        "Developed new features for the Pheal App & Pheal Web App, following industry best practices.",
-                        "Ensured a user-friendly and consistent user interface in alignment with the design specifications",
-                        "Worked on code optimization strategies to enhance app performance and reduce load times.",
-                        "Maintained clean and efficient code to facilitate future enhancements."
-                    ],
-                    "achievements": [
-                        " Independently conceptualized, designed, and developed both the Pheal Admin Dashboard and Pheal Appointment Booking Websites from scratch, showcasing comprehensive skills as the sole developer"
-                    ]
-                },
-                {
                     "companyName": "Digipay.Guru (Peerbits)",
                     "designation": "Software Engineer",
                     "employmentType": "Full Time",
-                    "startDate": "June 2022",
-                    "endDate": "August 2023",
+                    "startDate": "March 2023",
+                    "endDate": "Present",
                     "skills": [
                         "React Native",
                         "React Js",
@@ -295,46 +261,83 @@
                     ]
                 },
                 {
-                    "companyName": "Lahagora Pvt Ltd",
-                    "designation": "Android Developer Intern",
-                    "employmentType": "Internship",
-                    "startDate": "November 2021",
-                    "endDate": "April 2022",
+                    "companyName": "MKinfoscion",
+                    "designation": "React Native Developer",
+                    "employmentType": "Full Time",
+                    "startDate": "January 2022",
+                    "endDate": "February 2023",
                     "skills": [
-                        "Android",
-                        "Java",
-                        "Kotlin",
-                        "Player",
-                        "OTT",
-                        "Google Ads",
+                        "React Native",
+                        "React Js",
+                        "React Hooks",
+                        "Redux",
+                        "TypeScript",
+                        "JavaScript",
+                        "HTML",
+                        "CSS",
+                        "AWS",
                         "Firebase",
-                        "Notification",
-                        "Rest API"
+                        "Rest API",
+                        "Product",
+                        "App Distribution",
+                        "Git",
+                        "Payment Integration"
                     ],
                     "roleDescription": [
-                        "Developed user-friendly and responsive mobile applications for the Android platform.",
-                        "Crafted efficient, clean, and maintainable code in Java and Kotlin, adhering to coding best practices and guidelines.",
-                        "Integrated Firebase services, including Firebase Authentication, Firebase Realtime Database, and Firebase Cloud Messaging, into mobile applications.",
-                        "Incorporated the Google Ads SDK and integrated relevant ad formats within the app, ensuring precise ad targeting and effective monetization strategies.",
-                        "Collaborated with media playback libraries like VLC Player to provide seamless audio and video playback functionality."
+                        "Developing intuitive mobile applications for Cross Platform, ensuring optimal user experience and responsiveness.Writing efficient, well-structured code in React Native, following industry-standard coding practices and guidelines.",
+                        "Collaborating with cross-functional teams to translate project requirements into clean, maintainable code.",
+                        "Integrating Firebase services, such as Firebase Authentication and Firebase Realtime Database, to enhance app functionality and user engagement.",
                     ],
                     "achievements": [
-                        "Successfully built and launched Orange IPTV, an Android OTT App, which achieved a live presence on the Play Store, showcasing proficiency in app development and deployment."
+                        "Engineered cutting-edge, Futuristic mobile applications with Interactive Animations.",
+                        "Delivered sleek, user-friendly, and responsive mobile applications for both Android and iOS platforms.",
+                        "Acknowledged with Client Recognition for exceptional project management and delivering innovative solutions exceeding client expectations"
+                    ]
+                },
+                {
+                    "companyName": "Tops Technologies Pvt. ltd.",
+                    "designation": "React Js Developer Trainee",
+                    "employmentType": "Internship",
+                    "startDate": "April 2021",
+                    "endDate": "December 2022",
+                    "skills": [
+                        "Web Applications",
+                        "React Js",
+                        "React Hooks",
+                        "Functional Components",
+                        "Class Components",
+                        "React Router",
+                        "Redux",
+                        "Javascript",
+                        "ECMAScript",
+                        "Responsive Web Applications",
+                        "Material UI",
+                        "HTML",
+                        "CSS",
+                        "Bootstrap",
+                        "Github"
+                    ],
+                    "roleDescription": [
+                        "Developed user-friendly and responsive Web applications.",
+                        "Crafted efficient, clean, and maintainable code in React Js and Javascript, adhering to coding best practices and guidelines.",
+                        "Furthermore, I am highly skilled in React JS and Redux, prioritizing the development of responsive user interfaces."
+                    ],
+                    "achievements": [
+                        "I have gained expertise in crafting modern web applications through the utilization of React Js, HTML, CSS, Bootstrap and JavaScript."
                     ]
                 }
             ],
             "skills": [
                 "Fintech",
                 "React Native",
+                "React.js",
                 "TypeScript",
                 "JavaScript",
-                "React.js",
                 "React Hooks",
                 "Redux",
                 "HTML",
                 "CSS",
                 "Git",
-                "Kotlin",
                 "Android",
                 "Java",
                 "Google Play Store",
@@ -346,9 +349,9 @@
             ],
             "education": [
                 {
-                    "university": "Charotar University Of Science And Technology",
+                    "university": "Atmiya Institute of Technology and Science",
                     "course": "B.Sc",
-                    "cgpa": "8.77",
+                    "cgpa": "7.37",
                     "startYear": "2017",
                     "endYear": "2020"
                 }

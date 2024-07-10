@@ -1,13 +1,13 @@
 import { connect } from "react-redux";
-import AboutMeUI from "./AboutMeUI";
+import MySkillsUI from "./MySkillsUI";
 
-interface IAboutMeProps {
+interface IMySkillsProps {
     userDetails: any;
 }
 
-const AboutMe = ({ }: IAboutMeProps) => {
+const MySkills = ({ }: IMySkillsProps) => {
 
-    // const [state, setState] = useState<IAboutMeState>({
+    // const [state, setState] = useState<IMySkillsState>({
     //     fullName: '',
     // });
 
@@ -16,7 +16,7 @@ const AboutMe = ({ }: IAboutMeProps) => {
     // };
 
     return (
-        <AboutMeUI />
+        <MySkillsUI />
     )
 }
 
@@ -26,4 +26,4 @@ const mapStateProps = (state: any) => ({
 
 const mapDispatchToProps = {}; //need to check about this property
 
-export default connect(mapStateProps, { ...mapDispatchToProps })(AboutMe);
+export default connect(mapStateProps, { ...mapDispatchToProps })(MySkills);
