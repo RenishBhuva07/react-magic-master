@@ -172,7 +172,7 @@
                     "Firebase"
                 ],
                 "projectVersion": "",
-                "projectLink": "https://github.com/bhavin-khatri/gyan-astra-rn",
+                "projectLink": "https://github.com/RenishBhuva07/gyan-astra-rn-app",
                 "roleDescription": "As a Developer for Gyan Astra, constructed a cross-platform mobile application using React Native that provides a wide range of information about modern-era topics, including Astra, cryptocurrency, NFTs, PIE, and the stock market."
             },
             {
@@ -212,7 +212,7 @@
                     "JavaScript"
                 ],
                 "projectVersion": "",
-                "projectLink": "https://github.com/bhavin-khatri/play-me-rn",
+                "projectLink": "https://github.com/RenishBhuva07/play-me-rn",
                 "roleDescription": "As a Developer for Play Me, constructed a cross-platform mobile application using React Native that presents a visually appealing and intuitive interface that enhances the user's engagement with their music library."
             }
         ],
@@ -230,6 +230,8 @@
                         "React Native",
                         "React Js",
                         "React Hooks",
+                        "Class Components",
+                        "Functional Components",
                         "Redux",
                         "TypeScript",
                         "JavaScript",
@@ -241,23 +243,26 @@
                         "Fintech",
                         "App Distribution",
                         "Datadog",
-                        "Sentry",
-                        "Git",
+                        "GitHub",
+                        "BitBucket",
                         "Payment Integration",
-                        "Digital Signature"
+                        "Digital Signature",
+                        "Animations"
                     ],
                     "roleDescription": [
-                        "Developed cross-platform applications using the React Native framework (TypeScript, JavaScript) for Android and iOS platforms",
-                        "Engineered clean, maintainable, and efficient code to implement user interfaces and application features.",
-                        "Conducted comprehensive testing and debugging of applications to ensure high-quality deliverables.",
-                        "Collaborated closely with the design team to ensure an optimal user experience and interface implementation.",
-                        "Participated in code reviews, offering valuable feedback and contributing to code quality standards.",
+                        "Developed cross-platform Mobile Applications utilizing the React Native framework (TypeScript, JavaScript) for both Android and iOS platforms.",
+                        "Crafted clean, maintainable, and efficient code to execute user interfaces and application functionalities.",
+                        "Executed thorough testing and debugging procedures to ensure the delivery of high-quality applications.",
+                        "Worked closely with the design team to optimize user experience and interface implementation.",
+                        "Engaged in code reviews, providing constructive feedback and upholding code quality standards.",
                         "Demonstrated expertise in app distribution processes and requirements for Google Play Store and Apple App Store."
                     ],
                     "achievements": [
-                        "Earned appreciation for developing and delivering DGePay, a Fintech app for a Bangladesh client, securing the coveted Bangladesh Bank License for the initiation of payment services in Bangladesh.",
-                        "Orchestrated a comprehensive flavor setup, enhancing the product's market competitiveness and user appeal.",
-                        "Spearheaded digital signature implementation in Digipay, fortifying its security infrastructure and addressing critical security concerns."
+                        "I've successfully contributed to the development of a range of fintech functionalities, including EWallet Payments, Digital Tipping Payments with Wristbands, NFC read/write capabilities, Scheduled Payments, Cash-Prize, Business Department features, Security with Signature, and numerous others of Shukur, a fintech app for a Dubai client.",
+                        "Contributed to and integrated the Amity Social UI Kit, enabling comprehensive entertainment creation and seamless user engagement across video streaming, photo and video posts, likes and comments, follow functionalities, and community building.",
+                        "Delivered Cash In, Cash Out, Commission Earning, and Settlement Modules for Agents and Master Agents, enhancing operational efficiency and financial transparency for African Client.",
+                        "Spearheaded digital signature implementation in Digipay, fortifying its security infrastructure and addressing critical security concerns.",
+                        "In addition, I have acquired expertise in various design principles, crafted appealing animations, and integrated optimal solutions to enhance the product's quality."
                     ]
                 },
                 {
@@ -267,21 +272,22 @@
                     "startDate": "January 2022",
                     "endDate": "February 2023",
                     "skills": [
+                        "Android & iOS Applications",
                         "React Native",
-                        "React Js",
                         "React Hooks",
+                        "Class Components",
+                        "Functional Components",
                         "Redux",
                         "TypeScript",
                         "JavaScript",
+                        "Firebase",
+                        "Rest API",
                         "HTML",
                         "CSS",
                         "AWS",
-                        "Firebase",
-                        "Rest API",
-                        "Product",
                         "App Distribution",
-                        "Git",
-                        "Payment Integration"
+                        "Github",
+                        "BitBucket"
                     ],
                     "roleDescription": [
                         "Developing intuitive mobile applications for Cross Platform, ensuring optimal user experience and responsiveness.Writing efficient, well-structured code in React Native, following industry-standard coding practices and guidelines.",
@@ -323,7 +329,7 @@
                         "Furthermore, I am highly skilled in React JS and Redux, prioritizing the development of responsive user interfaces."
                     ],
                     "achievements": [
-                        "I have gained expertise in crafting modern web applications through the utilization of React Js, HTML, CSS, Bootstrap and JavaScript."
+                        "I have gained expertise in crafting modern web applications through the utilization of React Js, JavaScript, HTML, CSS, and Bootstrap."
                     ]
                 }
             ],
